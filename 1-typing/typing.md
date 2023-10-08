@@ -59,4 +59,29 @@ married: bool = False
 print(name)
 ```
 
-Basic Variable Typing
+## List Typing
+
+``` py
+vowels: list[str] = ['a', 'e', 'i', 'o', 'u']
+odds: list[int] = [1, 3, 5, 7, 9]
+
+print(vowels)
+
+```
+
+## Tuple Typing
+
+```py
+props: tuple[(str, str, int, bool)] = ("Sarmad", "sarmad@gmail.com", 19, True)
+
+print(props)
+```
+
+## Set Typing
+
+```py
+details: set[str] = {"Sarmad", "sarmad@gmail.com"}
+
+print(details)
+
+```
