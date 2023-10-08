@@ -10,3 +10,5 @@ Also install `pip` package.
 ``` pip
 pip install mypy
 ```
+
+This extensio and package will check the typing errors in python file much like Typescript.
