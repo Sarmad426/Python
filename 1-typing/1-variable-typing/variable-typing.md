@@ -49,3 +49,14 @@ print(type (name)) # class
 print(id(name)) # address
 print(dir(name)) # Gives the available operations
 ```
+
+## Another Example
+
+```py
+name: str = "Sarmad"
+age: int = 19
+married: bool = False
+print(name)
+```
+
+Basic Variable Typing
