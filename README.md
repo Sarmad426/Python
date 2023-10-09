@@ -11,4 +11,32 @@ Also install `pip` package.
 pip install mypy
 ```
 
-This extensio and package will check the typing errors in python file much like Typescript.
+This extension and package will check the typing errors in python file much like Typescript.
+
+## Update Conda to Python 3.12 by creating Virtual Environment
+
+```bash
+conda create -n py_12 python==3.12 -y
+```
+
+This will create a virtual Environment.
+`-n` means name of the virtual env.
+`-y` is yes for all installation questions.
+
+## Activate Virtual Env
+
+```bash
+conda env list
+```
+
+Check the Available virtual env list.
+
+```bash
+conda activate py_12
+```
+
+Check Python Version
+
+```bash
+python --version
+```
