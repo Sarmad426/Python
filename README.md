@@ -40,3 +40,18 @@ Check Python Version
 ```bash
 python --version
 ```
+
+### Python installation for vscode
+
+```pip
+Pylance
+Pylint
+MyPy Type checker
+MyPy
+Jupyter
+Jupyter Slideshow
+Jupyter Keymap
+Jupyter Notebook Renderers
+Jupyter Cell Tags
+Black
+```
