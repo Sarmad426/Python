@@ -29,3 +29,16 @@ Pandas is widely used and highly regarded for several reasons:
 4. **Integration**: Pandas integrates well with other libraries and tools commonly used in the data science ecosystem. It can be easily combined with libraries like NumPy, Matplotlib, and Scikit-learn, allowing for a comprehensive data analysis workflow.
 
 In summary, Pandas is a powerful and versatile library that simplifies data manipulation and analysis in Python. Its easy-to-use interface, efficient operations, and integration capabilities make it an essential tool for anyone working with structured data.
+
+## Methods for working with cv files
+
+```ipynb
+import pandas as pd
+df = pd.read_csv('filename.csv')
+df
+```
+
+We import `pandas as pd` and read the csv file `pd.read_csv()`
+Next, we inspected the file by just typing variable name `df`
+To know the shape, no of rows and cols in a csv file `df.shape`
+`df.describe()` shows the basic information of csv file.
