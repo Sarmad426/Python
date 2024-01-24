@@ -3,9 +3,8 @@
 while True:
     try:
         num: int = int(input("Enter a number: "))
+        break
     except ValueError:
         print("You must enter a number!")
-    else:
-        break
 
 print(num)
