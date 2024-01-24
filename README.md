@@ -1,6 +1,37 @@
-# Python 3.12
+# 1. Python Roadmap
 
-Python 3.12 new Release features. New Typing and Jupyter.
+1. Data Types
+2. Conditions
+3. Loops
+4. Functions
+5. Exceptions
+6. OOP
+7. Numpy
+8. File Handling
+9. Pandas
+
+## Object-Oriented Programming (OOP) with Python Course Roadmap
+
+## Pillars of OOP
+
+- Inheritance
+- Abstraction
+- Polymorphism
+- Encapsulation
+
+### Inheritance
+
+- Multiple inheritance
+- Multi-level inheritance
+
+## Other Topics of OOP
+
+- Classes and objects
+- Constructor
+
+## Python 3.12 Project Setup
+
+Python 3.12 type hinting. Basics and Advanced Object Oriented Programming.
 
 ## Install Mypy Extension
 
