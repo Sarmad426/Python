@@ -8,12 +8,6 @@ import re
 def validate_email(email: str) -> bool:
     """
     Validates an email address using regex.
-
-    Parameters:
-        email (str): The email address to be validated.
-
-    Returns:
-        bool: True if the email address is valid, False otherwise.
     """
 
     pattern = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b")
