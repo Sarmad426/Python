@@ -18,12 +18,12 @@ def main():
     """
     main function
     """
-    user_email = input("Enter your email address: ")
+    user_email = input("Enter email: ")
 
     if validate_email(user_email):
-        print("Valid email address.")
+        print("✅Valid email")
     else:
-        print("Invalid email address. Please enter a valid email.")
+        print("⚠️Invalid email!")
 
 
 if __name__ == "__main__":
