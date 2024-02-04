@@ -84,5 +84,5 @@ Jupyter Slideshow
 Jupyter Keymap
 Jupyter Notebook Renderers
 Jupyter Cell Tags
-Black
+Black Formatter
 ```
