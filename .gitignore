@@ -1,3 +1,8 @@
+# Ignored Editor files
 .vscode
-practice.py
+
+
 __pycache__
+
+# Practice files
+practice.*
