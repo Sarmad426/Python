@@ -1,4 +1,4 @@
-# 1. Python Roadmap
+# Python Roadmap
 
 1. Data Types
 2. Conditions
