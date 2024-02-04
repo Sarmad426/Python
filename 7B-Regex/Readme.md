@@ -2,12 +2,17 @@
 
 Regex, short for Regular Expression, is a powerful tool used for pattern matching and manipulation of strings. It provides a concise and flexible syntax for describing text patterns, allowing you to search, match, and manipulate text based on specific criteria.
 
-Here are some basic concepts in regex:
+## Basic Concepts
 
-1. **Literal Characters:** Match the exact characters specified in the pattern.
+### 1. Literal Characters
+
+Match the exact characters specified in the pattern.
    - Example: The regex `apple` would match the string "apple" in a text.
 
-2. **Meta-characters:** Special characters with a specific meaning.
+### 2. Meta-characters 
+
+These are special characters with a specific meaning.
+
    - `.` (dot): Matches any character except a newline.
    - `*`: Matches 0 or more occurrences of the preceding character or group.
    - `+`: Matches 1 or more occurrences of the preceding character or group.
@@ -17,8 +22,12 @@ Here are some basic concepts in regex:
    - `\`: Escapes a meta-character, treating it as a literal character.
    - `{m}`: m repetitions
    - `{m,n}`: m-n repetitions
+   - `A|B`: either A or B
+   - `(...)`: a group
+   - `(?:...)`: non-capturing version
+   - ``
 
-Here are some examples in Python:
+## Python Code Example for REGEX
 
 ```python
 import re
