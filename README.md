@@ -5,10 +5,13 @@
 3. Loops
 4. Functions
 5. Exceptions
-6. OOP
-7. Numpy
+6. Libraries
+7. Unit Tests
 8. File Handling
-9. Pandas
+9. Regular Expression (REGEX)
+10. OOP
+11. Numpy
+12. Pandas
 
 ## Object-Oriented Programming (OOP) with Python Course Roadmap
 
