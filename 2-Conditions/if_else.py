@@ -1,4 +1,4 @@
-"""Python Conditions if else"""
+"""Python Conditions if elif else"""
 
 num: int = int(input("Enter a number: "))
 
