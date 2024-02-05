@@ -36,6 +36,9 @@ def read_file():
 
 
 def greet_user(name: str) -> None:
+    """
+    Greets the user
+    """
     print(f"Welcome, {name}")
 
 
