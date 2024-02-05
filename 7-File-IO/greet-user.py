@@ -1,5 +1,5 @@
 """
-Python practice programs for File Input-Output.
+Python program for file input-output.
 """
 
 import sys
