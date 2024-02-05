@@ -7,33 +7,52 @@ Regex, short for Regular Expression, is a powerful tool used for pattern matchin
 ### 1. Literal Characters
 
 Match the exact characters specified in the pattern.
-   - Example: The regex `apple` would match the string "apple" in a text.
 
-### 2. Meta-characters 
+> Example: The regex `apple` would match the string "apple" in a text.
+
+### 2. Meta-characters
 
 These are special characters with a specific meaning.
 
-   - `.`:   any character except a newline.
-   - `*`:   Matches 0 or more occurrences of the preceding character or group.
-   - `+`:   Matches 1 or more occurrences of the preceding character or group.
-   - `?`:   Matches 0 or 1 occurrence of the preceding character or group.
-   - `^`:   matches the beginning of the string.
-   - `$`:   matches the end of the string or just before the newline at the end of the string.
-   - `\`:   Escapes a meta-character, treating it as a literal character.
-   - `{m}`:    m repetitions
-   - `{m,n}`:  m-n repetitions
-   - `A|B`:    either A or B
-   - `(...)`:  a group
-   - `(?:...)`:   non-capturing version
-   - `[]`:       set of Characters
-   - `[^]`: Complementing of Set
-   - `\d`: Decimal digit
-   - `\D`: not a decimal digit
-   - `\s`: whitespace character
-   - `\S`: not a whitespace character
-   - `\w`: word character as well as numbers and the underscore
-   - `\W`: not a word character
+- `.`:   any character except a newline.
 
+- `*`:   Matches 0 or more occurrences of the preceding character or group.
+  
+- `+`:   Matches 1 or more occurrences of the preceding character or group.
+  
+- `?`:   Matches 0 or 1 occurrence of the preceding character or group.
+  
+- `^`:   matches the beginning of the string.
+  
+- `$`:   matches the end of the string or just before the newline at the end of the string.
+
+- `\`:   Escapes a meta-character, treating it as a literal character.
+
+- `{m}`:    m repetitions
+
+- `{m,n}`:  m-n repetitions
+
+- `A|B`:    either A or B
+
+- `(...)`:  a group
+
+- `(?:...)`:   non-capturing version
+
+- `[]`:       set of Characters
+
+- `[^]`: Complementing of Set
+
+- `\d`: Decimal digit
+
+- `\D`: not a decimal digit
+
+- `\s`: whitespace character
+
+- `\S`: not a whitespace character
+
+- `\w`: word character as well as numbers and the underscore
+
+- `\W`: not a word character
 
 ## Python Code Example for REGEX
 
