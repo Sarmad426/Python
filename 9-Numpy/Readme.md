@@ -7,7 +7,7 @@ NumPy is a Python library that stands for Numerical Python. It is a fundamental 
 To install NumPy, you can use the following command:
 
 ```pip
-!pip install numpy
+%pip install numpy
 ```
 
 Make sure you have Python and pip installed on your system before running this command.
@@ -52,7 +52,7 @@ NumPy is a fundamental library in the Python scientific computing ecosystem, and
 ## Install Numpy with Types
 
 ```pip
-!pip install nptyping beartype
+%pip install nptyping beartype
 ```
 
 `nptyping` and `beartype` are used for static typing in python code.
@@ -60,7 +60,7 @@ NumPy is a fundamental library in the Python scientific computing ecosystem, and
 ### To upgrade for latest versions
 
 ```pip
-!pip install nptyping beartype --upgrade --force
+%pip install nptyping beartype --upgrade --force
 ```
 
 This will upgrade the `beartype` and `nptyping` forcefully.
