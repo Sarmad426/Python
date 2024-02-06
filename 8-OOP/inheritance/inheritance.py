@@ -8,7 +8,7 @@ class Person:
     Person class with name, email and age
     """
 
-    def __init__(self, name, age):
+    def __init__(self, name: str, age: int):
         self.name = name
         self.age = age
 
@@ -21,7 +21,7 @@ class Professor(Person):
     Professor class inheriting `Person` class and having a `Subject` field.
     """
 
-    def __init__(self, name, age, subject):
+    def __init__(self, name: str, age: int, subject: str):
         super().__init__(name, age)
         self.subject = subject
 
