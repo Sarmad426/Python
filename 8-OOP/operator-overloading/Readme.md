@@ -32,7 +32,6 @@ print(f"Result: ({result.x}, {result.y})")  # Output: Result: (4, 6)
 Let's extend the example to overload the `==` operator to check if two points are equal.
 
 ```python
-from typing import Tuple
 
 class Point:
     def __init__(self, x: int, y: int):
