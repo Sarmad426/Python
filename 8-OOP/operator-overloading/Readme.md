@@ -11,7 +11,6 @@ Here's a brief explanation and examples at different levels of complexity:
 Let's create a class `Point` to represent a point in 2D space. We'll overload the `+` operator to add two points together.
 
 ```python
-from typing import Tuple
 
 class Point:
     def __init__(self, x: int, y: int):
