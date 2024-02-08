@@ -28,9 +28,16 @@ class GuessGame:
         self.points = 0
         print(self.GUESS_NUM)
 
-    def input_guess(self):
+    def input_guess(self) -> None:
         """
         Takes user guess as input and returns the result
+
+        No Parameters:\n
+        Returns nothing
+
+        if guess is correct, it exits the program with the user message
+
+        Otherwise it keeps asking for guess input until 3 attempts
         """
         while self.guess_count < self.GUESS_LIMIT:
             self.guess_count += 1
@@ -47,9 +54,27 @@ class GuessGame:
                 print("Incorrect guess!")
 
     def check_guess(self, user_guess: int) -> bool:
+        """
+        Checks the guess and returns a boolean
+
+        Parameter:
+        - user_guess (int): input Guess value
+
+        Return:
+        - boolean: if guess is correct returns `True` otherwise returns `False`
+        """
         return user_guess == self.GUESS_NUM
 
     def update_points(self, guess_count: int) -> int:
+        """
+        Updates the points based on the guess attempt
+
+        Parameters:
+        - guess_count (int) : attempts made by user
+
+        Returns:
+        points (int): number of points earned by the user
+        """
         if guess_count == 1:
             return 15
         elif guess_count == 2:
