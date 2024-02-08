@@ -11,36 +11,44 @@ class CarGame:
     """
 
     commands: tuple[str, str, str, str] = ("start", "stop", "exit", "help")
+    states = (True, False)
 
     def __init__(self) -> None:
         self.started: bool = False
         self.stopped: bool = True
 
     def start_game(self):
-        states = (True, False)
         while True:
-            command = input(":> ")
+            command = input(":> ").strip()
             if command in CarGame.commands:
                 if command == "start":
-                    if self.started:
-                        print("Car already started: ")
-                    else:
-                        self.started, self.stopped = states
-                        print("Car Started: ")
+                    self.start_car(self.started)
                 elif command == "stop":
-                    if self.stopped:
-                        print("Car already stopped: ")
-                    else:
-                        self.stopped, self.started = states
-                        print("Car Stopped:")
+                    self.stop_car(self.stopped)
                 elif command == "help":
-                    print(
-                        "start: to start the car\nstop: to stop the car\nexit: to exit the game"
-                    )
+                    self.help()
                 else:
                     sys.exit("Game Terminated: ")
             else:
                 print("Invalid command! ")
+                self.help()
+
+    def start_car(self, started: bool):
+        if started:
+            print("Car already started: ")
+        else:
+            self.started, self.stopped = CarGame.states
+            print("Car started: ")
+
+    def stop_car(self, stopped: bool):
+        if stopped:
+            print("Car already stopped: ")
+        else:
+            self.stopped, self.started = CarGame.states
+            print("Car stopped: ")
+
+    def help(self) -> None:
+        print("start: to start the car\nstop: to stop the car\nexit: to exit the game")
 
 
 def main():
