@@ -44,9 +44,9 @@ def main() -> None:
         "0": "Zero",
     }
 
-    PHONE_NUM = input("Phone Number: ")
+    phone_num = input("Phone Number: ")
 
-    output: str = map_digits(PHONE_NUM, characters)
+    output: str = map_digits(phone_num, characters)
 
     print(output)
 
