@@ -50,6 +50,9 @@ class Guess_Game:
             return 10
         return 5
 
+    def __str__(self):
+        return f"Guess game with 3 guess attempts. Hint (1-10)"
+
 
 def main():
     """
