@@ -5,10 +5,11 @@
     : user get points based on the number of attempt on which they have guessed it correct
 """
 
-import random, sys
+import random
+import sys
 
 
-class Guess_Game:
+class GuessGame:
     """
     Guess Game Class
 
@@ -28,6 +29,9 @@ class Guess_Game:
         print(self.GUESS_NUM)
 
     def input_guess(self):
+        """
+        Takes user guess as input and returns the result
+        """
         while self.guess_count < self.GUESS_LIMIT:
             self.guess_count += 1
             user_guess: int = int(input("Guess: "))
@@ -39,6 +43,8 @@ class Guess_Game:
                 )
             elif self.guess_count == 3:
                 sys.exit("You Lose: ")
+            else:
+                print("Incorrect guess!")
 
     def check_guess(self, user_guess: int) -> bool:
         return user_guess == self.GUESS_NUM
@@ -60,7 +66,7 @@ def main():
 
     Creates `Guess_Game` class instance and calls the `input_guess` method
     """
-    game = Guess_Game()
+    game = GuessGame()
 
     game.input_guess()
 
