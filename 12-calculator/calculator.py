@@ -2,7 +2,7 @@
 Python **GUI** Calculator
 """
 
-from tkinter import *
+from tkinter import Button, Tk, StringVar, Label, Frame
 
 
 def button_press(num: int):
