@@ -31,6 +31,11 @@
 
 - Classes and objects
 - Constructor
+- decorators
+- Getters and setters
+- Methods (class functions)
+- Duck Typing
+- Operator overloading
 
 ## Projects
 
