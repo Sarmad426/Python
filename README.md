@@ -34,8 +34,8 @@
 
 ## Projects
 
-- **Library Management System** (OOP) program
-- Python **GUI Calculator**
+- **[Library Management System](/11-Final-project/)** (OOP) program
+- Python **[GUI Calculator](/12-calculator/)**
 
 ## Python 3.12 Project Setup
 
