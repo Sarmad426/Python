@@ -32,6 +32,11 @@
 - Classes and objects
 - Constructor
 
+## Projects
+
+- **Library Management System** (OOP) program
+- Python **GUI Calculator**
+
 ## Python 3.12 Project Setup
 
 Python 3.12 type hinting. Basics and Advanced Object Oriented Programming.
