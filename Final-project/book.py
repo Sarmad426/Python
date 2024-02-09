@@ -1,4 +1,17 @@
+"""
+    Book Class
+
+    Manages books
+"""
+
+
 class Book:
+    """
+    Book Class
+
+    manages books, borrowed and returned
+    """
+
     def __init__(self, title: str, author: str, isbn: str):
         self.title = title
         self.author = author

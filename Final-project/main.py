@@ -1,9 +1,18 @@
+"""
+Project main file
+"""
+
 from library import Library
 from book import Book
 from user import User
 
 
 def main():
+    """
+    main function of the project
+
+    calls the object methods
+    """
     # Create a Library instance
     library = Library()
 

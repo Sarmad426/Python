@@ -1,10 +1,26 @@
-from typing import List, Optional
+"""
+Library class
+
+Keeps track of books and users
+"""
+
+from typing import List
 from book import Book
 from user import User
 
 
 class Library:
-    def __init__(self):
+    """
+    Library class
+
+    Keeps track of books and users
+
+    methods:
+    - add_book()
+    - borrow_book()
+    """
+
+    def __init__(self) -> None:
         self.books: List[Book] = []
         self.users: List[User] = []
 
