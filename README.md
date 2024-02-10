@@ -1,26 +1,26 @@
 # Python Roadmap
 
-1. Data Types
-2. Conditions
-3. Loops
-4. Functions
-5. Exceptions
-6. Libraries
-7. Unit Tests
-8. File Handling
-9. Regular Expression (REGEX)
-10. OOP
-11. Numpy
-12. Pandas
+1. [Data Types](/1-Data-types/)
+2. [Conditions](/2-Conditions)
+3. [Loops](/2A-Loops/)
+4. [Functions](/3-Functions/)
+5. [Exceptions](/4-Exceptions/)
+6. [Libraries](/5-Libraries/)
+7. [Unit Tests](/5A-unit-tests/)
+8. [File Handling](/6-File-IO/)
+9. [Regular Expression (REGEX)](/6A-Regex/)
+10. [OOP](/7-OOP/)
+11. [Numpy](/8-Numpy/)
+12. [Pandas](/9-Pandas/)
 
 ## Object-Oriented Programming (OOP) with Python Course Roadmap
 
 ## Pillars of OOP
 
-- Inheritance
-- Abstraction
-- Polymorphism
-- Encapsulation
+- [Inheritance](/7-OOP/inheritance/)
+- [Abstraction](/7-OOP/Abstraction/)
+- [Polymorphism](/7-OOP/Polymorphism)
+- [Encapsulation](/7-OOP/Encapsulation)
 
 ### Inheritance
 
@@ -39,8 +39,8 @@
 
 ## Projects
 
-- **[Library Management System](/11-Final-project/)** (OOP) program
-- Python **[GUI Calculator](/12-calculator/)**
+- **[Library Management System](/Final-project/)** (OOP) program
+- Python **[GUI Calculator](/GUI-calculator/)**
 
 ## Python 3.12 Project Setup
 
