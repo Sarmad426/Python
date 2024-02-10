@@ -16,17 +16,17 @@ class GuessGame:
     Checks the guess and assign points
 
     methods:
-    - check_guess(user_guess:int) -> bool: Checks the user guess and calls the `update_points` function
+    - check_guess(user_guess:int) -> bool:
+        Checks the user guess and calls the `update_points` function
     - update_points() -> None: Update the user points according to the guess
     """
 
     def __init__(self):
         self.GUESS_LIMIT = 3
         # random guess value (constant)
-        self.GUESS_NUM = random.randint(1, 5)
+        self.GUESS_NUM = random.randint(1, 10)
         self.guess_count = 0
         self.points = 0
-        print(self.GUESS_NUM)
 
     def input_guess(self) -> None:
         """
