@@ -15,7 +15,7 @@ def get_github_user(username: str):
     Returns:
     user (json object): The github user's info as a json object. If not found, returns None
     """
-    api_url = f"https://api.github.com/users/{github_user_search}"
+    api_url = f"https://api.github.com/users/{username}"
     response = requests.get(api_url)
     user = response.json()
     if response.status_code == 200:
