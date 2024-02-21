@@ -8,7 +8,6 @@ total = 0
 count = 1
 
 while total < 100:
-    prev = count
-    count = total
     print(total)
+    prev, count = count, total
     total += prev
