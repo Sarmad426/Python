@@ -10,7 +10,12 @@ def reverse_string(string: str) -> str:
     reverse = ""
     index = len(string) - 1
 
-    for digit in string:
+    while index >= 0:
         reverse = reverse + string[index]
         index -= 1
     return reverse
+
+
+INPUT = input("Input string: ")
+
+print(reverse_string(INPUT))
