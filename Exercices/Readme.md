@@ -5,6 +5,7 @@
   - [Fibonacci Series](#fibonacci-series)
   - [Prime numbers](#prime-numbers)
   - [Armstrong numbers](#armstrong-numbers)
+  - [Sum of Digits of a number](#sum-of-digits-of-a-number)
 
 **Conversion:**
 
@@ -47,4 +48,14 @@ $(153,371,407)$
 
 $$
 153 - (1^3 + 5^3 + 3^3 = 1+ 125 + 27 =153)
+$$
+
+## Sum of Digits of a number
+
+Sum of Digits of a number
+
+**Example:**
+$$
+(123 = 6)
+(145 = 10)
 $$
