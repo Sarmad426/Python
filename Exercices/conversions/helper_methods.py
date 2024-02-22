@@ -16,6 +16,8 @@ def reverse_string(string: str) -> str:
     return reverse
 
 
-INPUT = input("Input string: ")
+if __name__ == "__main__":
 
-print(reverse_string(INPUT))
+    INPUT = input("Input string: ")
+
+    print(reverse_string(INPUT))
