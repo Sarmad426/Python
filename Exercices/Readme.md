@@ -9,7 +9,7 @@
 **Conversion:**
 
 - [Binary to Decimal](./conversions/binary_to_decimal.py)
-- Decimal to Binary
+- [Decimal to Binary](./conversions/decimal_to_binary.py)
 
 ## Factorial
 
