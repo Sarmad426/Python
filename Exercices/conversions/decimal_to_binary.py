@@ -2,18 +2,7 @@
 Python program converts decimal input to binary
 """
 
-
-def reverse_string(string: str) -> str:
-    """
-    Reverses the string and returns it
-    """
-    reverse = ""
-    index = len(string) - 1
-
-    for digit in string:
-        reverse = reverse + string[index]
-        index -= 1
-    return reverse
+from . import reverse_string
 
 
 def decimal_to_binary(decimal: int) -> str:
