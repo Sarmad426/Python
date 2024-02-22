@@ -1,6 +1,6 @@
-# Exercice programs
+# Exercise programs
 
-- [Exercice programs](#exercice-programs)
+- [Exercise programs](#exercise-programs)
   - [Factorial](#factorial)
   - [Fibonacci Series](#fibonacci-series)
   - [Prime numbers](#prime-numbers)
