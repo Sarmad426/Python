@@ -1,5 +1,6 @@
 """
 Program checks whether the input number is prime number or not.
+Prime numbers $(2,3,5,7,11,13,17,19,23)$
 """
 
 
