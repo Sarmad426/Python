@@ -9,5 +9,6 @@ count = 1
 
 while total < 100:
     print(total)
-    prev, count = count, total
+    prev = count
+    count = total
     total += prev
