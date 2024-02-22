@@ -18,9 +18,9 @@ def binary_to_decimal(binary: str) -> str:
     """
     total = 0
     power = 0
-    count = len(binary)
+    count = len(binary) - 1
     for digit in binary:
-        mul = pow(2, power) * int(binary[count - 1])
+        mul = pow(2, power) * int(binary[count])
         power += 1
         total += mul
         count -= 1
