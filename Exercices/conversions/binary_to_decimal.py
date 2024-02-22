@@ -25,7 +25,7 @@ def binary_to_decimal(binary: str) -> str:
         total += mul
         count -= 1
     decimal = str(total)
-    return str(decimal)
+    return decimal
 
 
 def validate_binary(binary: str) -> bool:
