@@ -30,7 +30,7 @@ $0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89$
 
 ## Prime numbers
 
-Prime numbers are numbers that cannot be divided other than 1 or by the number itself.
+Prime numbers are numbers that cannot be divided other than 1 or by the number itself. [Python Code](./prime_number.py)
 
 **Example:**
 
@@ -38,7 +38,7 @@ $(5, 7,11,17,19)$
 
 ## Armstrong numbers
 
-Armstrong is a number which is equal to the sum of its digits own digits raised to the power of the number of digits.
+Armstrong is a number which is equal to the sum of its digits own digits raised to the power of the number of digits. [Python Code](./armstrong_number.py)
 
 **Example:**
 
@@ -60,7 +60,7 @@ $$
 
 ## Sum of Digits of a number
 
-Sum of Digits of a number
+Sum of Digits of a number. [Python Code](./sum_of_digits_of_num.py)
 
 **Example:**
 $$
