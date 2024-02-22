@@ -3,6 +3,8 @@ Program checks whether the input number is armstrong number or not.
 Armstrong numbers: $(153,371,407)$
 """
 
+from helper_methods.power_func import power_func
+
 
 def check_armstrong(num: int) -> bool:
     """
@@ -19,7 +21,7 @@ def check_armstrong(num: int) -> bool:
     total = 0
     while temp >= 1:
         digit = temp % 10
-        total += pow(digit, power)
+        total += power_func(digit, power)
         temp = int(temp / 10)
     if total == num:
         return True
