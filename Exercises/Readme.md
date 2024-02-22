@@ -38,16 +38,24 @@ $(5, 7,11,17,19)$
 
 ## Armstrong numbers
 
-Armstrong is a number which is equal to the cube of its digits.
+Armstrong is a number which is equal to the sum of its digits own digits raised to the power of the number of digits.
 
 **Example:**
 
 $(153,371,407)$
 
-**Calculation:**
+**Calculation:**216 + 27 + 64 + 1 = 308
+
+**For 3 digits:**
 
 $$
 153 - (1^3 + 5^3 + 3^3 = 1+ 125 + 27 =153)
+$$
+
+**For 4 digits:**
+
+$$
+1634 - ( 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634)
 $$
 
 ## Sum of Digits of a number
