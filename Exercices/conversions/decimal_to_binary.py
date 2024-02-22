@@ -2,7 +2,7 @@
 Python program converts decimal input to binary
 """
 
-from . import reverse_string
+from helper_methods import reverse_string
 
 
 def decimal_to_binary(decimal: int) -> str:
