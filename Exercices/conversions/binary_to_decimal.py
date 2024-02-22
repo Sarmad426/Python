@@ -6,6 +6,19 @@ import re
 import sys
 
 
+def reverse_string(string: str) -> str:
+    """
+    Reverses the string and returns it
+    """
+    reverse = ""
+    index = len(string) - 1
+
+    for digit in string:
+        reverse = reverse + string[index]
+        index -= 1
+    return reverse
+
+
 def binary_to_decimal(binary: str) -> str:
     """
     Converts binary input to decimal
@@ -18,12 +31,11 @@ def binary_to_decimal(binary: str) -> str:
     """
     total = 0
     power = 0
-    index = len(binary) - 1
+    binary = reverse_string(binary)
     for digit in binary:
-        mul = pow(2, power) * int(binary[index])
+        mul = pow(2, power) * int(digit)
         power += 1
         total += mul
-        index -= 1
     decimal = str(total)
     return decimal
 
