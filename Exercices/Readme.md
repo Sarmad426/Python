@@ -21,7 +21,7 @@ $5*4*3*2*1 = 120$
 
 ## Fibonacci Series
 
-Number Series starting from 0 adding the last value to the next value. [Python Code](./fibonaci_series.py)
+Number Series starting from 0 adding the last value to the next value. [Python Code](./fibonacci_series.py)
 
 **Example:**
 
