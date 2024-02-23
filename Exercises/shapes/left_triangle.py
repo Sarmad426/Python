@@ -18,3 +18,10 @@ def triangle(limit: int):
 LIMIT = int(input("Enter limit of triangle: "))
 
 triangle(LIMIT)
+
+
+# def triangle():
+#     for i in range(10):
+#         for j in range(i):
+#             print("*", end="")
+#         print()
