@@ -2,9 +2,8 @@
 Python program converts binary input to decimal
 """
 
-import re
 import sys
-from helper_method import reverse_string
+from helper_method import reverse_string, validate_binary
 
 
 def binary_to_decimal(binary: str) -> str:
@@ -26,20 +25,6 @@ def binary_to_decimal(binary: str) -> str:
         total += mul
     decimal = str(total)
     return decimal
-
-
-def validate_binary(binary: str) -> bool:
-    """
-    Validates binary input via REGEX
-
-    Parameter:
-    `binary` (str) : binary value to validate
-
-    Returns:
-    bool : True if valid binary number
-    """
-    pattern = re.compile(r"^[01]+$")
-    return bool(pattern.match(binary))
 
 
 BINARY_INPUT = input("Enter binary number: ")
