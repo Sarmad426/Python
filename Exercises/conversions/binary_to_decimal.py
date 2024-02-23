@@ -4,7 +4,7 @@ Python program converts binary input to decimal
 
 import re
 import sys
-from reverse_string import reverse_string
+from helper_method import reverse_string
 
 
 def binary_to_decimal(binary: str) -> str:
