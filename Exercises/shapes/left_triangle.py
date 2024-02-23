@@ -10,9 +10,9 @@ def triangle(limit: int):
     for i in range(limit):
         j = 0
         while j < i:
-            print("*", end="")
+            print("*", end="")  # print * and skip new line
             j += 1
-        print()
+        print()  # enter new line after each inner loop iteration
 
 
 LIMIT = int(input("Enter limit of triangle: "))
