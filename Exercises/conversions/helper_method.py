@@ -32,8 +32,19 @@ def validate_binary(binary: str) -> bool:
     return bool(pattern.match(binary))
 
 
-if __name__ == "__main__":
+def power_func(num: int, power_digit: int) -> int:
+    """
+    Returns the power of the given number
 
-    INPUT = input("Input string: ")
+    Parameters:
+    - `num` (int) : number for power
+    - `pow` (int) : power digit
 
-    print(reverse_string(INPUT))
+    Returns the power of the given number
+    """
+    TEMP = num
+    count = power_digit
+    while count > 1:
+        count -= 1
+        num *= TEMP
+    return num
