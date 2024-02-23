@@ -42,6 +42,8 @@ def power_func(num: int, power_digit: int) -> int:
 
     Returns the power of the given number
     """
+    if power_digit == 0:
+        return 1
     TEMP = num
     count = power_digit
     while count > 1:
