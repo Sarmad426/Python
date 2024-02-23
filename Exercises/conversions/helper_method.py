@@ -50,3 +50,24 @@ def power_func(num: int, power_digit: int) -> int:
         count -= 1
         num *= TEMP
     return num
+
+
+def sum_of_digits_of_num(num: int) -> int:
+    """
+    Returns the sum of digits of a number for 3 digits < 1000
+
+    Parameter:
+    - num (int)
+
+    Returns:
+    - sum of digits of `num`
+    """
+    first = int(num / 100)
+    second_third = num % 100
+
+    second = int(second_third / 10)
+    third = second_third % 10
+
+    total = first + second + third
+
+    return total
