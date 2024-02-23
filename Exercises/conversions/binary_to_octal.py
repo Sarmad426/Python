@@ -3,11 +3,7 @@ Python program converts binary input to decimal
 """
 
 import sys
-from helper_method import (
-    reverse_string,
-    validate_binary,
-    power_func,
-)
+from helper_method import validate_binary
 
 
 def binary_to_octal(binary: str) -> str:
@@ -20,22 +16,14 @@ def binary_to_octal(binary: str) -> str:
     Returns:
     - str : octal output
     """
-    octal = ""
-    binary = reverse_string(binary)
-    count = 0
-    add = 0
-    total = 0
-    for i in range(len(binary)):
-        count += 1
-        add += int(binary[i]) * power_func(2, count - 1)  # 1,0,5,
-        if count == 3:
-            total = add
-            print(count, add)
-            count = 0
-            add = 0
-            octal += str(total)
+    while len(binary) % 3 != 0:
+        binary = "0" + binary
 
-    return reverse_string(octal)
+    octal = ""
+    for i in range(0, len(binary), 3):
+        chunk = binary[i : i + 3]
+        octal += str(int(chunk, 2))
+    return octal
 
 
 BINARY_INPUT = input("Enter binary number: ")
