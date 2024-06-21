@@ -78,3 +78,56 @@ This will upgrade the `beartype` and `nptyping` forcefully.
 - Numpy Multi-dimensional list operations
 - Numpy Random numbers
 - intersection and where functions
+
+## Numpy topics
+
+# Numpy
+
+**Numpy** stands for **Numerical Python**. It is extensivly used in machine learning projects. The most common way to work with numbers in numpy is through `ndarray` objects.
+
+Some key concepts of numpy are
+
+1. Scalars
+2. Vectors
+3. Matrices
+4. Tensors
+
+### Scalars
+
+These types are important because every object we make (Vectors, Matrices, Tensors) eventually stores scalars. And when we create a numpy array, we can specify the type - but every item in the array must have the same type. In this regard numpy arrays are more like C arrays than Python **lists**.
+
+```py
+scalar = np.array(10)
+```
+
+### Vectors
+
+Vectors in numpy have a single dimension, represented by a single row or column of elements. All elements in a vector are of same data type, such as integer, floats or complex numbers.
+
+```py
+vecor = np.array([1,2,3,4,5])
+```
+
+### Matrices
+
+Matrices can be created using the `np.array` function. However, instead of just passing a list, we need to supply a list of lists where each list represents a row.
+
+```py
+array : np.ndarray = np.array(
+    [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]])
+```
+
+### Tensors
+
+Tensors are just like vectors and matrices, but they can have more dimensions. For example, to create 3*3*2*1, we could do the following:
+
+```py
+tensor = np.array(
+    [[[1], [2]], [[3],[4]],[[5], [6]]],\
+    [[[7], [8]], [[9],[10]],[[11], [12]]],\
+    [[[13], [14]], [[15],[16]],[[17], [18]]]
+)
+```
