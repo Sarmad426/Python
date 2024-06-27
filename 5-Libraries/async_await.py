@@ -38,7 +38,7 @@ async def main():
 
     await asyncio.gather(start(), running())
 
-    async_func()  # this will do nothing because coroutine object is created but not awaited
+    await async_func()  # this will do nothing because coroutine object is created but not awaited
     await async_func()
 
 
