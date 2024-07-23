@@ -10,3 +10,6 @@ practice.*
 # Csv and text files
 *.csv
 *.txt
+
+image-bg-remover/*.png
+image-bg-remover/*.jpg
