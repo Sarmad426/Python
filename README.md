@@ -99,3 +99,13 @@ Jupyter Notebook Renderers
 Jupyter Cell Tags
 Black Formatter
 ```
+
+### Learn more
+
+Learn **DSA** with python. <https://github.com/Sarmad426/DSA-Python>
+
+Want to learn web development using **Fast API**. <https://github.com/Sarmad426/FastAPI>
+
+Learn **AI** and **Data Science**. <https://github.com/Sarmad426/AI>
+
+Learn **Generative AI**. <https://github.com/Sarmad426/Generative-AI>
