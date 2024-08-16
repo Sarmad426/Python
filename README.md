@@ -85,6 +85,42 @@ Check Python Version
 python --version
 ```
 
+### Create and Activate Virtual Environment using `pip`
+
+```bash
+python -m venv venv
+```
+
+**Activate it:**
+
+```bash
+.\venv\Scripts\activate
+```
+
+Once activated, your command prompt will change to show the name of the virtual environment in parentheses, indicating that it's active. For example:
+
+```bash
+(venv) C:\path\to\your\project>
+```
+
+Verify activation
+
+```bash
+where python
+```
+
+Now you can install any package inside the virtual environment.
+
+```bash
+pip install requests
+```
+
+**Deactivating Virtual environment:**
+
+```bash
+deactivate
+```
+
 ### Learn more
 
 Learn **DSA** with python. <https://github.com/Sarmad426/DSA-Python>
