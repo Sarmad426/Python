@@ -1,27 +1,31 @@
 # Python Cheat Sheet
 
+Python is a versatile, high-level programming language known for its readability and simplicity. It's widely used in web development, data analysis, artificial intelligence, machine learning, and automation. Python's extensive libraries and supportive community make it a popular choice for both beginners and experienced developers. Its ability to handle complex tasks with minimal code has cemented its importance in today's tech-driven world.
+
 ## Table of Contents
 
-- **Variables**
-- **Comments**
-- **Receiving Input**
-- **Strings**
-- **Arithmetic Operations**
-- **If Statements**
-- **Comparison Operators**
-- **While Loops**
-- **For Loops**
-- **Lists**
-- **Tuples**
-- **Dictionaries**
-- **Functions**
-- **Exceptions**
-- **Classes**
-- **Inheritance**
-- **Modules**
-- **Packages**
-- **Python Standard Library**
-- **Pypi**
+- [Python Cheat Sheet](#python-cheat-sheet)
+  - [Table of Contents](#table-of-contents)
+  - [Variables](#variables)
+  - [Comments](#comments)
+  - [Receiving Input](#receiving-input)
+  - [Strings](#strings)
+  - [Arithmetic Operations](#arithmetic-operations)
+  - [If Statements](#if-statements)
+  - [Comparison Operators](#comparison-operators)
+  - [While Loops](#while-loops)
+  - [For Loops](#for-loops)
+  - [Lists](#lists)
+  - [Tuples](#tuples)
+  - [Dictionaries](#dictionaries)
+  - [Functions](#functions)
+  - [Exceptions](#exceptions)
+  - [Classes](#classes)
+  - [Inheritance](#inheritance)
+  - [Modules](#modules)
+  - [Packages](#packages)
+  - [Python Standard Library](#python-standard-library)
+  - [Pypi](#pypi)
 
 ## Variables
 
@@ -65,7 +69,7 @@ We can define strings using single (`' '`) or double (`" "`) quotes.
 ```python
 course = 'Python for Beginners'
 course[0]  # returns the first character
-course[-1] # returns the first character from the end
+course[-1] # returns the last character
 course[1:5] # returns 'ytho'
 ```
 
@@ -144,7 +148,7 @@ numbers.sort()    # sorts the list
 
 ## Tuples
 
-Tuples are like read-only lists.
+Tuples are immutable and are like read-only lists.
 
 ```python
 coordinates = (1, 2, 3)
@@ -255,8 +259,11 @@ Python comes with a huge library of modules for performing common tasks.
 
 ```python
 import random
-random.random() # returns a float between 0 to 1
-random.randint(1, 6) # returns an int between 1 to 6
+random.random()    # returns a float between 0 and 1
+random.randint(1, 6) # returns an int between 1 and 6
+
+import datetime
+print(datetime.datetime.now())  # returns the current date and time
 ```
 
 ## Pypi
