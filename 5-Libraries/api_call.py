@@ -1,33 +1,34 @@
 """
-Calls Github users api and stores the data in csv file
+Calls Simple FastAPI api using requests library
 """
 
 import requests
 
+# First run the FastAPI app using uvicorn [`uvicorn main:app --reload`]
 
-def get_github_user(username: str):
+def greet_user(name: str):
     """
-    Gets the github user via api
+    Calls FastAPI api
 
     Parameters:
-    username (str): Username of the github user
+    name (str): Name to greet
 
     Returns:
-    user (json object): The github user's info as a json object. If not found, returns None
+    user (json object): Greet message
     """
-    api_url = f"https://api.github.com/users/{username}"
-    response = requests.get(api_url)
-    user = response.json()
+    API_URL = f"http://127.0.0.1:8000/{name}"
+    response = requests.get(API_URL)
+    msg = response.json()
     if response.status_code == 200:
-        return user
+        return msg
     return None
 
 
 github_user_search = input("Search for Github user with username: ")
 
-user = get_github_user(github_user_search)
+greet_msg = greet_user(github_user_search)
 
-if user:
-    print(user)
+if greet_msg:
+    print(greet_msg)
 else:
-    print("No GitHub user found!")
+    print("Something went wrong!")
