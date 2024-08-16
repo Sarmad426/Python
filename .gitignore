@@ -13,3 +13,6 @@ practice.*
 
 image-bg-remover/*.png
 image-bg-remover/*.jpg
+
+# Ignore virtual env files
+venv
