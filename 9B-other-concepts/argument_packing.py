@@ -1,6 +1,7 @@
+from typing import Any
 
 # Positional Argument packing
-def add_numbers(*args: tuple[int]):
+def add_numbers(*args: int) -> int:
     # *args allows the function to accept any number of positional arguments
     return sum(args)
 
@@ -9,7 +10,7 @@ print(result)
 
 
 # Unpacking Iterables
-def greet(name1, name2, name3):
+def greet(name1: str, name2: str, name3: str) -> None:
     # Function expects three arguments
     print(f"Hello, {name1}, {name2}, and {name3}!")
 
@@ -19,7 +20,7 @@ greet(*names)  # Unpacking the list into separate arguments
 
 
 # Keyword argument packing
-def display_info(**kwargs):
+def display_info(**kwargs: Any) -> None:
     # **kwargs allows the function to accept any number of keyword arguments
     for key, value in kwargs.items():
         print(f"{key}: {value}")
@@ -29,7 +30,7 @@ display_info(name="Sarmad", age=20, location="Asia")
 
 
 # Unpacking dictionaries
-def create_user(username, email, age):
+def create_user(username: str, email: str, age: int) -> None:
     # Function expects three keyword arguments
     print(f"Username: {username}, Email: {email}, Age: {age}")
 
@@ -39,7 +40,7 @@ create_user(**user_data)  # Unpacking the dictionary into keyword arguments
 
 
 # Mixed positional and keyword arguments
-def process_data(a, b, *args, **kwargs):
+def process_data(a: int, b: int, *args: int, **kwargs: Any) -> None:
     # a and b are regular positional arguments
     # *args captures additional positional arguments
     # **kwargs captures additional keyword arguments
