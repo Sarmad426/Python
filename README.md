@@ -1,5 +1,13 @@
 # Python Roadmap
 
+Python is a versatile, high-level programming language known for its simplicity and readability, making it ideal for both beginners and experienced developers. Its vast ecosystem of libraries and frameworks supports a wide range of applications, from web development and automation to data science, artificial intelligence, and machine learning.
+
+**Why Python:**
+
+Python's demand has surged due to its pivotal role in emerging technologies like AI, big data, and cloud computing. Companies favor Python for its efficiency in rapid prototyping and scalability, making it a go-to language for startups and large enterprises alike. Learning Python opens doors to a broad spectrum of tech fields, ensuring relevance in the ever-evolving job market.
+
+**Repository Content:**
+
 1. [Data Types](/1-Data-types/)
 2. [Conditions](/2-Conditions)
 3. [Loops](/2A-Loops/)
@@ -10,10 +18,10 @@
 8. [File Handling](/6-File-IO/)
 9. [Regular Expression (REGEX)](/6A-Regex/)
 10. [OOP](/7-OOP/)
-11. [Numpy](/8-Numpy/)
+11. [NumPy](/8-Numpy/)
 12. [Pandas](/9-Pandas/)
 
-## Object-Oriented Programming (OOP) with Python Course Roadmap
+## Object-Oriented Programming (OOP) with Python
 
 ## Pillars of OOP
 
@@ -46,9 +54,9 @@
 
 Python 3.12 type hinting. Basics and Advanced Object Oriented Programming.
 
-## Install Mypy Extension
+## Install MyPy Extension
 
-First install the Mypy extension in your editor. (vscode)
+First install the MyPy extension in your editor. (vscode)
 Also install `pip` package.
 
 ``` pip
@@ -125,7 +133,7 @@ deactivate
 
 Learn **DSA** with python. <https://github.com/Sarmad426/DSA-Python>
 
-Want to learn web development using **Fast API**. <https://github.com/Sarmad426/FastAPI>
+Back end **API** development using **Fast API**. <https://github.com/Sarmad426/FastAPI>
 
 Learn **AI** and **Data Science**. <https://github.com/Sarmad426/AI>
 
