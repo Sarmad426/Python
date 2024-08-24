@@ -14,7 +14,7 @@ def greet_user(name: str):
     name (str): Name to greet
 
     Returns:
-    user (json object): Greet message
+    (json object): Greet message
     """
     API_URL = f"http://127.0.0.1:8000/{name}"
     response = requests.get(API_URL)
@@ -24,9 +24,9 @@ def greet_user(name: str):
     return None
 
 
-github_user_search = input("Search for Github user with username: ")
+greet_name = input("Greet user with name: ")
 
-greet_msg = greet_user(github_user_search)
+greet_msg = greet_user(greet_name)
 
 if greet_msg:
     print(greet_msg)
