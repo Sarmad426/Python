@@ -35,6 +35,8 @@ To test the code using *pytest*.
 instead of executing file with python,
 execute it with **pytest**.
 
-Here is an example for the `unit-tests.py` file in this directory.
+**Run tests:**
 
-`pytest 6B-unit-tests/unit-tests.py`
+Here is an example for the `unit_tests.py` file in this directory.
+
+`pytest 6B-unit-tests/unit_tests.py`
