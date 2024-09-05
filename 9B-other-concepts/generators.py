@@ -4,9 +4,6 @@
 # the `yield` keyword instead of `return`. Each call to the generator's `__next__()` method or `next()` function 
 # resumes the function from where it last left off, yielding the next value.
 
-# Syntax:
-# def generator_function():
-#     yield value
 
 # Example of a generator that yields numbers from 1 to n
 
