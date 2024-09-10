@@ -65,6 +65,12 @@ pip install mypy
 
 This extension and package will check the typing errors in python file much like Typescript.
 
+Wanna install all the packages for the repository.
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Update Conda to Python 3.12 by creating Virtual Environment
 
 ```bash
