@@ -1,0 +1,8 @@
+mypy
+fastapi
+requests
+numpy
+pandas
+pytest
+pylint
+black
