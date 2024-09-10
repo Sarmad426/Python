@@ -6,3 +6,5 @@ pandas
 pytest
 pylint
 black
+pillow
+rembg
