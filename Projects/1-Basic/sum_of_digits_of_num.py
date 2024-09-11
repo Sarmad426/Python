@@ -22,9 +22,8 @@ def main():
     """
     while True:
         try:
-            user_input = input("Enter an integer: ")
-            number = int(user_input)
-            result = sum_digits(number)
+            user_input = int(input("Enter an integer: "))
+            result = sum_digits(user_input)
             print(f"Sum of digits: {result}")
             break
         except ValueError:
