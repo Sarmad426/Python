@@ -8,3 +8,7 @@ pylint
 black
 pillow
 rembg
+jupyter
+ipykernel
+notebook
+jupyterlab
