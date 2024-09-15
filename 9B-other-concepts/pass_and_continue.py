@@ -2,12 +2,13 @@
 Pass and continue usage
 """
 
+
 def example_pass():
     """
     Demonstrates the use of the `pass` keyword.
-    
-    The `pass` keyword is used as a placeholder for future code. 
-    When the `pass` statement is executed, nothing happens, but 
+
+    The `pass` keyword is used as a placeholder for future code.
+    When the `pass` statement is executed, nothing happens, but
     you avoid getting an error when empty code is not allowed.
     """
     for i in range(5):
@@ -19,8 +20,8 @@ def example_pass():
 def example_continue():
     """
     Demonstrates the use of the `continue` keyword.
-    
-    The `continue` keyword is used to skip the current iteration of a 
+
+    The `continue` keyword is used to skip the current iteration of a
     loop and continue with the next iteration.
     """
     for i in range(5):

@@ -25,9 +25,9 @@ async def async_func():
     """
     async function
     """
-    print("Velotio ...")
-    await asyncio.sleep(5)
-    print("... Technologies!")
+    print("Getting things ready...")
+    await asyncio.sleep(3)
+    print("...Technologies!")
 
 
 async def main():
