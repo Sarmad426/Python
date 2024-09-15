@@ -4,6 +4,9 @@ Memoization in python
 
 
 def memoize(func):
+    """
+    Memoization function
+    """
     cache = {}  # Store results in a cache
 
     def wrapper(*args):
@@ -19,6 +22,9 @@ def memoize(func):
 
 @memoize
 def expensive_function(x):
+    """
+    A function that performs an expensive calculation
+    """
     print(f"Calculating result for {x}")
     return x * x  # Example of an expensive calculation
 
