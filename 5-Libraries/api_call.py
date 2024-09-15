@@ -6,6 +6,7 @@ import requests
 
 # First run the FastAPI app using uvicorn [`uvicorn main:app --reload`]
 
+
 def greet_user(name: str):
     """
     Calls FastAPI api
