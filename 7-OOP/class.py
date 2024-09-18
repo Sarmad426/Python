@@ -18,9 +18,9 @@ class Person:
         Constructor for the Person class.
 
         Parameters:
-        name (str): The name of the person.
-        email (str): The email address of the person.
-        age (int): The age of the person.
+            name (str): The name of the person.
+            email (str): The email address of the person.
+            age (int): The age of the person.
         """
         self.name = name
         self.email = email
@@ -30,7 +30,7 @@ class Person:
         """
         Greet the user by their name
         """
-        print(f"Hi, {self.name}!")
+        print(f"Hi, {self.name.capitalize()}!")
 
 
 if __name__ == "__main__":
