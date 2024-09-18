@@ -29,10 +29,10 @@ if __name__ == "__main__":
     NAME = input("Enter your name: ")
     EMAIL = input("Enter your email: ")
 
-    age: int = int(input("Enter your age: "))
+    AGE: int = int(input("Enter your age: "))
 
     # Create Person object
-    user = Person(NAME, EMAIL, age)
+    user = Person(NAME, EMAIL, AGE)
 
     # Greet the user
     user.greet()
