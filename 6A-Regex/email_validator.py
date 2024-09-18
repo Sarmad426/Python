@@ -21,9 +21,9 @@ def main():
     user_email = input("Enter email: ")
 
     if validate_email(user_email):
-        print("✅Valid email")
+        print("Valid email ✅")
     else:
-        print("⚠️Invalid email!")
+        print("Invalid email! ⚠️")
 
 
 if __name__ == "__main__":

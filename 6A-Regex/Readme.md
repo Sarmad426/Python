@@ -1,6 +1,6 @@
 # REGEX
 
-Regex, short for Regular Expression, is a powerful tool used for pattern matching and manipulation of strings. It provides a concise and flexible syntax for describing text patterns, allowing you to search, match, and manipulate text based on specific criteria.
+**REGEX**, short for **Regular Expression**, is a powerful tool used for pattern matching and manipulation of strings. It provides a concise and flexible syntax for describing text patterns, allowing you to search, match, and manipulate text based on specific criteria.
 
 ## Basic Concepts
 
