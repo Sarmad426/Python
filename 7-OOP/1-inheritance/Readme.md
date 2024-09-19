@@ -1,6 +1,6 @@
 # Inheritance in Object-Oriented Programming
 
-Inheritance is a fundamental concept in Object-Oriented Programming (OOP) that allows a new class (called the subclass or derived class) to inherit attributes and methods from an existing class (called the superclass or base class). Inheritance facilitates code reuse and promotes the creation of a hierarchy of classes with shared characteristics and behaviors. The subclass can extend or override the functionality of the superclass, enabling developers to create specialized classes that inherit and modify the behavior of their parent classes.
+**Inheritance** is a fundamental concept in **Object-Oriented Programming (OOP)** that allows a new class (called the subclass or derived class) to inherit attributes and methods from an existing class (called the superclass or base class). Inheritance facilitates code reuse and promotes the creation of a hierarchy of classes with shared characteristics and behaviors. The subclass can extend or override the functionality of the superclass, enabling developers to create specialized classes that inherit and modify the behavior of their parent classes.
 
 ## Inheritance in Python
 
@@ -45,15 +45,13 @@ print("Generic animal sound:", cat.speak())  # Output: Meow!
 
 ### 2. Multiple Inheritance
 
-
-Multiple inheritance refers to the ability of a class to inherit attributes and methods from 
+Multiple inheritance refers to the ability of a class to inherit attributes and methods from
 more than one parent class. In other words, a subclass can inherit from multiple superclasses.
-This means that the subclass has access to all the methods and attributes of each of its 
+This means that the subclass has access to all the methods and attributes of each of its
 parent classes. However, multiple inheritance can lead to complex class hierarchies and
 potential issues such as the diamond problem, where the same method is inherited from two
 different parent classes. Python supports multiple inheritance, but it requires careful design
 to avoid such issues.
-
 
 ```python
 class Flyable:
@@ -88,3 +86,30 @@ print("Flyable object behavior:", bird.fly())  # Output: Flying high.
 ### 3. Multi-level Inheritance
 
 Multi-level inheritance, refers to a situation where a class inherits from another class, and then another class inherits from this derived class. This creates a hierarchical relationship between classes, where each subsequent class adds more specific attributes or behavior to the hierarchy. It is a simpler form of inheritance compared to multiple inheritance, as there is only one direct parent class for each subclass. This hierarchy can be seen as a chain of classes, with each link representing a level of inheritance. Multi-level inheritance is commonly used to model real-world relationships where subclasses specialize or refine the behavior of their parent classes.
+
+```py
+# Base class
+class Animal:
+    def speak(self):
+        return "Generic animal sound"
+
+# Derived class inheriting from Animal
+class Bird(Animal):
+    def speak(self):
+        return "Tweet!"
+
+    def fly(self):
+        return "Flying high."
+
+# Further derived class inheriting from Bird
+class Parrot(Bird):
+    def speak(self):
+        return "Parrot says hello!"
+
+# Creating object of the most derived class
+parrot = Parrot()
+
+# Calling methods from all levels of the hierarchy
+print("Parrot sound:", parrot.speak())  # Output: Parrot says hello!
+print("Flyable object behavior:", parrot.fly())  # Output: Flying high.
+```
