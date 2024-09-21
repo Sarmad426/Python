@@ -5,7 +5,7 @@ Password Strength Checker
 import re
 
 
-def check_password_strength(password):
+def check_password_strength(password: str) -> int:
     """
     Checks the strength of the password based on the following criteria:
 
