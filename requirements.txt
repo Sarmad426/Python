@@ -15,3 +15,5 @@ notebook
 jupyterlab
 black[jupyter]
 qrcode
+types-pillow
+types-qrcode
