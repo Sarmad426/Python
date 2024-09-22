@@ -18,3 +18,5 @@ image-bg-remover/*.jpg
 
 # Ignore virtual env files
 venv
+
+QRs/
