@@ -5,7 +5,14 @@ which reads the same backward as forward, such as "madam" or "racecar".
 
 
 def is_palindrome(s: str) -> bool:
-    """Check if a string is a palindrome."""
+    """Checks weather the string is palindrome or not
+
+    Args:
+        string (str): string to be checked for palindrome
+
+    Returns:
+        bool: `string` is palidrome or not
+    """
     left = 0
     right = len(s) - 1
 
@@ -27,7 +34,14 @@ print(f"Is '{TEST_STRING}' a palindrome? {is_palindrome(TEST_STRING)}")
 
 
 def is_palindrome_2(s: str) -> bool:
-    """Check if a string is a palindrome."""
+    """Checks weather the string is palindrome or not
+
+    Args:
+        string (str): string to be checked for palindrome
+
+    Returns:
+        bool: `string` is palidrome or not
+    """
     return s == s[::-1]
 
 
