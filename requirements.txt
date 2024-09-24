@@ -3,7 +3,9 @@ fastapi
 uvicorn
 requests
 numpy
+nptyping
 pandas
+pandera
 pytest
 pylint
 black
