@@ -7,15 +7,11 @@ nptyping
 pandas
 pandera
 pytest
-pylint
 black
-pillow
-rembg
 jupyter
 ipykernel
 notebook
 jupyterlab
 black[jupyter]
 qrcode
-types-pillow
 types-qrcode
