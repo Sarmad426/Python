@@ -1,0 +1,14 @@
+# Use the latest small version of Python as the base image
+FROM python:3.12.6-slim
+
+# Set the working directory inside the container
+WORKDIR /usr/src/app
+
+# Copy the app.py file to the working directory
+COPY app.py .
+
+# Add a maintainer label
+LABEL maintainer="sarmad426"
+
+# Specify the command to run the app.py file
+CMD ["python", "app.py"]
