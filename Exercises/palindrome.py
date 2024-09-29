@@ -4,20 +4,20 @@ which reads the same backward as forward, such as "madam" or "racecar".
 """
 
 
-def is_palindrome(s: str) -> bool:
+def is_palindrome(string: str) -> bool:
     """Checks weather the string is palindrome or not
 
     Args:
         string (str): string to be checked for palindrome
 
     Returns:
-        bool: `string` is palidrome or not
+        bool: `string` is palindrome or not
     """
     left = 0
-    right = len(s) - 1
+    right = len(string) - 1
 
     while left < right:
-        if s[left].lower() != s[right].lower():
+        if string[left].lower() != string[right].lower():
             return False
         left += 1
         right -= 1
@@ -40,7 +40,7 @@ def is_palindrome_2(s: str) -> bool:
         string (str): string to be checked for palindrome
 
     Returns:
-        bool: `string` is palidrome or not
+        bool: `string` is palindrome or not
     """
     return s == s[::-1]
 
