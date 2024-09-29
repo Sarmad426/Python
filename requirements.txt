@@ -13,5 +13,3 @@ ipykernel
 notebook
 jupyterlab
 black[jupyter]
-qrcode
-types-qrcode
