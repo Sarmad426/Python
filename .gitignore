@@ -1,6 +1,6 @@
 # Ignored Editor files
 .vscode
-
+.idea
 
 __pycache__
 
@@ -12,11 +12,5 @@ practice.*
 file.txt
 temp_data.txt
 
-
-image-bg-remover/*.png
-image-bg-remover/*.jpg
-
 # Ignore virtual env files
 venv
-
-QRs/
