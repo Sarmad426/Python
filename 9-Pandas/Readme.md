@@ -136,21 +136,21 @@ To install pandera.
 ## Pandas DataFrame operations
 
 - add new column
-- 1. one column
-- 2. two or more column
+  - one column
+  - two or more column
 - delete column
 - change data type of column
 - map
 - apply
-- 1. on one column
-- 2. more than one column
+  - on one column
+  - more than one column
 - concatenate
 - 1. axis
-      - 1. axis = 0 (top to bottom)
-      - 2. axis = 1 (left to right)
+  - axis = 0 (top to bottom)
+  - axis = 1 (left to right)
 - describe dataframe
-- 1. `df.info()` # total index, columns names and data type, total fill cells
-- 2. `df.describe()` # mean std, min # statistical properties | apply only numeric columns
+  - `df.info()` # total index, columns names and data type, total fill cells
+  - `df.describe()` # mean std, min # statistical properties | apply only numeric columns
 
 ## Apply operations on columns
 
