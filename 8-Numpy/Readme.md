@@ -81,7 +81,7 @@ This will upgrade the `beartype` and `nptyping` forcefully.
 
 ## Numpy topics
 
-# Numpy
+## Numpy
 
 **Numpy** stands for **Numerical Python**. It is extensivly used in machine learning projects. The most common way to work with numbers in numpy is through `ndarray` objects.
 
