@@ -137,6 +137,8 @@ deactivate
 
 ### Learn more
 
+**Python Projects**. <https://github.com/Sarmad426/Python-projects>
+
 Learn **DSA** with python. <https://github.com/Sarmad426/DSA-Python>
 
 Back end **API** development using **Fast API**. <https://github.com/Sarmad426/FastAPI>

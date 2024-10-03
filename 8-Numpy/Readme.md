@@ -131,3 +131,5 @@ tensor = np.array(
     [[[13], [14]], [[15],[16]],[[17], [18]]]
 )
 ```
+
+**Numpy 101** exercise. <https://www.machinelearningplus.com/python/101-numpy-exercises-python/>
