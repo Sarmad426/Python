@@ -1,6 +1,4 @@
 mypy
-fastapi
-uvicorn
 requests
 numpy
 nptyping
