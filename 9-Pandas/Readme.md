@@ -1,10 +1,8 @@
 # Pandas
 
-Pandas is an open-source data manipulation and analysis library for Python. It provides easy-to-use data structures and functions for working with structured data, making it a powerful tool for data cleaning, exploration, and analysis. Pandas is widely used in data science, machine learning, and data analysis projects.
+Pandas is an open-source data manipulation and analysis library for Python. It provides easy-to-use data structures and functions for working with structured data, making it a powerful tool for data cleaning, exploration, and analysis.
 
 ## Where is Pandas Used?
-
-Pandas is used in various fields and industries for data manipulation and analysis. Some common applications of Pandas include:
 
 - Data cleaning and preparation
 - Data analysis and visualization
@@ -15,21 +13,15 @@ Pandas is used in various fields and industries for data manipulation and analys
 
 ## Installing Pandas
 
-To install Pandas, you need to have Python installed on your system. You can install Pandas using the Python package manager, `pip`. Open your command-line interface (e.g., Terminal on macOS, Command Prompt on Windows) and run the following command:
+First make sure that your virtual environment is activated.
 
-```markdown
+```bash
 pip install pandas
 ```
 
 This command will download and install the Pandas library and its dependencies.
 
-## Using Pandas
-
-Once you have Pandas installed, you can start using it in your Python projects. Here are some common tasks and how to perform them using Pandas:
-
 ### Importing Pandas
-
-To use Pandas in your Python script or Jupyter Notebook, you need to import it:
 
 ```python
 import pandas as pd
