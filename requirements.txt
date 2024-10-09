@@ -11,4 +11,3 @@ ipykernel
 notebook
 jupyterlab
 black[jupyter]
-matplotlib
