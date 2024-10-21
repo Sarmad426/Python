@@ -16,7 +16,7 @@ Pandas is an open-source data manipulation and analysis library for Python. It p
 First make sure that your virtual environment is activated.
 
 ```bash
-pip install pandas
+%pip install pandas
 ```
 
 This command will download and install the Pandas library and its dependencies.
@@ -110,9 +110,11 @@ For more detailed information, you can refer to the official [Pandas documentati
 
 ## Pandera
 
-`pip install pandera`
+**Installation:**
 
-To install pandera.
+```bash
+pip install pandera
+```
 
 ## Pandas Topics Covered
 
