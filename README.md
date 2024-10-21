@@ -1,6 +1,6 @@
-# Python Roadmap
+# Python
 
-Python is a high-level programming language. Its vast ecosystem of libraries and frameworks supports a wide range of applications, from web development and automation to data science, artificial intelligence, and machine learning.
+Python is a high-level interpreted programming language. Its vast ecosystem of libraries and frameworks supports a wide range of applications, from web development and automation to data science, artificial intelligence, and machine learning.
 
 Python's demand has surged due to its pivotal role in emerging technologies like AI, big data, and cloud computing.
 
@@ -19,7 +19,7 @@ Python's demand has surged due to its pivotal role in emerging technologies like
 11. [NumPy](/8-Numpy/)
 12. [Pandas](/9-Pandas/)
 
-## Object-Oriented Programming (OOP) with Python
+## OOP (Object-Oriented Programming)
 
 ### Pillars of OOP
 
@@ -54,10 +54,10 @@ pip install -r requirements.txt
 
 **Python Projects**. <https://github.com/Sarmad426/Python-projects>
 
-Learn **DSA** with python. <https://github.com/Sarmad426/DSA-Python>
+**DSA** with python. <https://github.com/Sarmad426/DSA-Python>
 
 Back end **API** development using **Fast API**. <https://github.com/Sarmad426/FastAPI>
 
-Learn **AI** and **Data Science**. <https://github.com/Sarmad426/AI>
+**AI** and **Data Science**. <https://github.com/Sarmad426/AI>
 
-Learn **Generative AI**. <https://github.com/Sarmad426/Generative-AI>
+**Generative AI**. <https://github.com/Sarmad426/Generative-AI>
