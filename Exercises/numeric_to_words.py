@@ -1,4 +1,12 @@
+"""
+Converts numeric values to their English word equivalents.
+"""
+
+
 def int_to_english(num):
+    """
+    Converts numeric to English words.
+    """
     d = {
         0: "zero",
         1: "one",
