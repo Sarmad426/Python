@@ -3,6 +3,7 @@ requests
 numpy
 nptyping
 pandas
+pandas-stubs
 pandera
 pytest
 black
