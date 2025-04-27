@@ -2,13 +2,22 @@
 Secret token generator
 """
 
-import os
-import binascii
+import secrets
+
 
 def generate_secret_key(length=32):
-    """Generate a secure secret key."""
-    return binascii.hexlify(os.urandom(length)).decode()
+    """
+    Generates a secret key with the specified length.
 
-# Generate a 32-byte secure secret key
+    Args:
+        length (int): The length of the secret key (default is 32).
+
+    Returns:
+        str: A randomly generated secret key.
+    """
+    return secrets.token_hex(length)
+
+
+# Generate a secret key
 secret_key = generate_secret_key()
-print("Generated Secret Key:", secret_key)
+print(f"Your secret key: {secret_key}")
