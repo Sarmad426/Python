@@ -9,9 +9,9 @@ CURRENCIES: tuple[str, str, str] = ("PKR", "USD", "IND")
 TypeCurrency = Literal["Source", "Target"]
 
 EXCHANGE_RATES: dict[str, dict[str, float]] = {
-    "USD": {"PKR": 0.288, "IND": 0.48},
-    "PKR": {"USD": 2.88, "IND": 1.48},
-    "IND": {"PKR": 0.8, "USD": 0.2},
+    "USD": {"PKR": 283.0, "IND": 82.0},
+    "PKR": {"USD": 0.0035, "IND": 0.29},
+    "IND": {"PKR": 3.45, "USD": 0.012},
 }
 
 
